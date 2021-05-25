@@ -6,10 +6,10 @@ from telethon import TelegramClient
 from DYNAMIC.DYNAMICConfig import Config
 from var import Var
 DYNAMICVERSION = "1.0"
-botnickname = "DYNAMIC USERBOT"
+botnickname = "TANDAV X USERBOT"
 ALIVE_PHOTO = "https://telegra.ph/file/b9587ab5e03dae1c1e258.mp4"
 StartTime = time.time()
-NAME = "DYNAMIC USER"
+NAME = "TANDAV USER"
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
