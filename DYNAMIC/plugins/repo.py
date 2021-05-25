@@ -13,4 +13,4 @@ async def inline_id_handler(event: events.InlineQuery.Event):
 async def callback_query_handler(event): 
 
 # inline by DYNAMICX22 and PROBOYX 🔥
-  await event.edit(text=f"DYNAMIC REPO AND GROUP LINK",buttons=[[Button.url(f"🔥DYNAMIC REPO🔥", url="https://github.com/DynamicUserbot/Dynamic-Userbot"), Button.url(f"⚡DYNAMIC SUPPORT⚡", url="https://t.me/DYNAMIC_USERBOT_SUPPORT")]])
+  await event.edit(text=f"TANDAV X REPO AND GROUP LINK",buttons=[[Button.url(f"🔥TANDAV X REPO🔥", url="TANDAV-X-USERBOT"), Button.url(f"⚡TANDAV SUPPORT⚡", url="https://t.me/TAMDAV_X_USERBOT")]])
