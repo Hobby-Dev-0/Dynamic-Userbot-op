@@ -1,4 +1,4 @@
-# MAKE BY AMAN PANDEY
+# MAKE BY SIDDHARTH
 import os
 from telethon.tl.types import ChatBannedRights
 class Var(object):
