@@ -1,7 +1,7 @@
-FROM TeamDynamic/DYNAMIC-USERBOT:latest
+FROM TeamTandav x/TANDAV X-USERBOT:latest
 
 #clonning repo 
-RUN git clone https://github.com/TeamDynamic/Dynamic-Userbot.git /root/DYNAMIC
+RUN git clone https://github.com/SHIVGULSHAN/TANDAV-X-USERBOT.git /root/DYNAMIC
 #working directory 
 WORKDIR /root/DYNAMIC
 
