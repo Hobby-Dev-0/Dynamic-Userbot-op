@@ -16,15 +16,15 @@ from DYNAMIC import ALIVE_NAME, bot
 token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
 xbot = TelegramClient("GODBOYX", API_ID, API_HASH).start(bot_token=token)
 pbot = Client("GODBOYX", api_id=API_ID, api_hash=API_HASH, bot_token=token)
-NAME = str(ALIVE_NAME) if ALIVE_NAME else "DYNAMIC USER"
+NAME = str(ALIVE_NAME) if ALIVE_NAME else "TANDAV USER"
 PHOTO = os.environ.get("ALIVE_PHOTO", None)
-GODBOYX = "[GODBOYX](https://t.me/GODBOYX)"
+SIDDHARTHX = "[SIDDHARTHX](https://t.me/mahadevbambhole)"
 VERSION = "1.1.0"
 ID = 1742906647
-REPO = "[Dynamic-Userbot](https://github.com/TeamDynamic/Dynamic-Userbot)"
+REPO = "[Dynamic-Userbot](https://github.com/SHIVGULSHAN/TANDAV-X-USERBOT)"
 devs = 1742906647
 MASTER = f"[{NAME}](tg://user?id={ID})"
-GROUP = "[SUPPORT GROUP](https://t.me/DYNAMICUSERBOTSUPPORT)"
+GROUP = "[SUPPORT GROUP](https://t.me/TAMDAV_X_USERBOT)"
 if __name__=="__main__":
   xbot.run_until_disconnected()
 
