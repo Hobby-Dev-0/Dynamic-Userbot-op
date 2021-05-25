@@ -1,5 +1,5 @@
-#MADE BY @GODBOYX AND @AmanPandeyDeveloperIN
-#MADE FOR DYNAMIC USERBOT ONLY
+
+#MADE FOR TANDAC X USERBOT ONLY
 #KANG WITH CREDITS OTHERWISE YOU WILL See What We can Do 
 from DYNAMIC.utils import admin_cmd
 from .. import CMD_HELP
