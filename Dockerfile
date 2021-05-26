@@ -1,4 +1,4 @@
-FROM TeamTandav x/TANDAV X-USERBOT:latest
+FROM TeamTandav x/DYNAMIC -USERBOT:latest
 
 #clonning repo 
 RUN git clone https://github.com/SHIVGULSHAN/TANDAV-X-USERBOT.git /root/DYNAMIC
