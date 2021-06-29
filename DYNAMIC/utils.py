@@ -19,7 +19,7 @@ from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 
 from var import Var
 
-from DYNAMIC import CMD_LIST, LOAD_PLUG, SUDO_LIST, bot, CMD_HELP, LOGS
+from DYNAMIC import CMD_LIST, LOAD_PLUG, SUDO_LIST, bot, CMD_HELP
 from DYNAMIC.GODBOYX import xbot
 from DYNAMIC.helper.exceptions import CancelProcess
 
@@ -41,7 +41,6 @@ def load_extra(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("Successfully imported " + shortname)
     else:
         import DYNAMIC.utils
 
@@ -65,7 +64,6 @@ def load_extra(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["DYNAMIC.plugins." + shortname] = mod
-        LOGS.info("Successfully imported " + shortname)
 
 
 def load_module(shortname):
@@ -79,7 +77,6 @@ def load_module(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("Successfully imported " + shortname)
     else:
         import DYNAMIC.utils
 
@@ -103,7 +100,6 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["DYNAMIC.plugins." + shortname] = mod
-        LOGS.info("Successfully imported " + shortname)
 
 def remove_plugin(shortname):
     try:
