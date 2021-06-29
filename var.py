@@ -1,3 +1,4 @@
+from sample_config import Config
 import os
 
 ENV = bool(os.environ.get("ENV", False))
