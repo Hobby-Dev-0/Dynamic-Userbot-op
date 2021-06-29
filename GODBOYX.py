@@ -8,8 +8,8 @@ except:
 
 import asyncio
 from DYNAMIC import bot as GODBOYX
-API_ID = os.environ.get("APP_ID", None)
-API_HASH = os.environ.get("API_HASH", None)
+API_ID = 3249905
+API_HASH = ec7d3e4024ae97115b59e22dd6b4697c
 from telethon import events, custom, Button, TelegramClient
 import time
 from DYNAMIC import ALIVE_NAME, bot
