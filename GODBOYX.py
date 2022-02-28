@@ -13,7 +13,7 @@ API_HASH = ec7d3e4024ae97115b59e22dd6b4697c
 from telethon import events, custom, Button, TelegramClient
 import time
 from DYNAMIC import ALIVE_NAME, bot
-token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
+token = os.environ.get("BOT_TOKEN", None)
 xbot = TelegramClient("GODBOYX", API_ID, API_HASH).start(bot_token=token)
 pbot = Client("GODBOYX", api_id=API_ID, api_hash=API_HASH, bot_token=token)
 NAME = str(ALIVE_NAME) if ALIVE_NAME else "DYNAMIC USER"
